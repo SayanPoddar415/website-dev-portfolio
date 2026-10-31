@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // 2) Theme: dark/light चुनने पर choice browser में save हो जाती है।
     const themeButton = document.getElementById("theme-toggle");
-    const savedTheme = localStorage.getItem("portfolio-theme") || "dark";
+    const savedTheme = localStorage.getItem("portfolio-theme") || "light";
     document.documentElement.setAttribute("data-theme", savedTheme);
 
     if (themeButton) {
