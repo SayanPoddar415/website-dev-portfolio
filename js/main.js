@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", () => {
             event.preventDefault(); // Form submit होकर page reload न करे.
 
             // IMPORTANT: यहाँ अपना WhatsApp number डालें। (Example: "919876543210")
-            const WHATSAPP_NUMBER = "91+6003162974"; 
+            const WHATSAPP_NUMBER = "9395974784"; 
 
             if (WHATSAPP_NUMBER.includes("X")) {
                 alert("पहले js/main.js में WHATSAPP_NUMBER की जगह अपना WhatsApp number डालें।");
